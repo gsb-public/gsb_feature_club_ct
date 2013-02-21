@@ -12,6 +12,7 @@ dependencies[] = entity_view_mode
 dependencies[] = features
 dependencies[] = image
 dependencies[] = options
+dependencies[] = panopoly_core
 dependencies[] = strongarm
 dependencies[] = taxonomy
 dependencies[] = text

@@ -14,7 +14,7 @@ function gsb_feature_club_ct_field_default_fields() {
   $fields['node-gsb_club-field_club_category'] = array(
     'field_config' => array(
       'active' => '1',
-      'cardinality' => '1',
+      'cardinality' => '-1',
       'deleted' => '0',
       'entity_types' => array(),
       'field_name' => 'field_club_category',
@@ -94,9 +94,10 @@ function gsb_feature_club_ct_field_default_fields() {
         'active' => 1,
         'module' => 'options',
         'settings' => array(),
-        'type' => 'options_select',
+        'type' => 'options_buttons',
         'weight' => '8',
       ),
+      'workbench_access_field' => 0,
     ),
   );
 

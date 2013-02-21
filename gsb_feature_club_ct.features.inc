@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * gsb_feature_club.features.inc
+ * gsb_feature_club_ct.features.inc
  */
 
 /**

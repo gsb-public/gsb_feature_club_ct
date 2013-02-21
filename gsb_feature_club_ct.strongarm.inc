@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * gsb_feature_club.strongarm.inc
+ * gsb_feature_club_ct.strongarm.inc
  */
 
 /**
@@ -36,6 +36,22 @@ function gsb_feature_club_ct_strongarm() {
     ),
   );
   $export['field_bundle_settings_node__gsb_club'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'menu_options_gsb_club';
+  $strongarm->value = array(
+    0 => 'main-menu',
+  );
+  $export['menu_options_gsb_club'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'menu_parent_gsb_club';
+  $strongarm->value = 'main-menu:0';
+  $export['menu_parent_gsb_club'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */

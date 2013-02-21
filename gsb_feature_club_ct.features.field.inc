@@ -14,7 +14,7 @@ function gsb_feature_club_ct_field_default_fields() {
   $fields['node-gsb_club-field_club_category'] = array(
     'field_config' => array(
       'active' => '1',
-      'cardinality' => '1',
+      'cardinality' => '-1',
       'deleted' => '0',
       'entity_types' => array(),
       'field_name' => 'field_club_category',
@@ -86,7 +86,7 @@ function gsb_feature_club_ct_field_default_fields() {
       'entity_type' => 'node',
       'field_name' => 'field_club_category',
       'label' => 'Club Category',
-      'required' => 0,
+      'required' => 1,
       'settings' => array(
         'user_register_form' => FALSE,
       ),
@@ -94,9 +94,10 @@ function gsb_feature_club_ct_field_default_fields() {
         'active' => 1,
         'module' => 'options',
         'settings' => array(),
-        'type' => 'options_select',
+        'type' => 'options_buttons',
         'weight' => '8',
       ),
+      'workbench_access_field' => 0,
     ),
   );
 
@@ -168,7 +169,7 @@ function gsb_feature_club_ct_field_default_fields() {
       'entity_type' => 'node',
       'field_name' => 'field_club_description',
       'label' => 'Description',
-      'required' => 0,
+      'required' => 1,
       'settings' => array(
         'linkit' => array(
           'enable' => 0,
@@ -186,6 +187,7 @@ function gsb_feature_club_ct_field_default_fields() {
         'type' => 'text_textarea',
         'weight' => '1',
       ),
+      'workbench_access_field' => 0,
     ),
   );
 

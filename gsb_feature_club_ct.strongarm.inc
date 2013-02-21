@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * gsb_feature_club.strongarm.inc
+ * gsb_feature_club_ct.strongarm.inc
  */
 
 /**

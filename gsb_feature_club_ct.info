@@ -1,10 +1,10 @@
-name = GSB Feature Club
-description = Content type, search panel, index and view
+name = GSB Feature Club Content Type
+description = Content type
 core = 7.x
 package = GSB
 php = 5.2.4
 version = 7.x-1.0
-project = gsb_feature_club
+project = gsb_feature_club_ct
 dependencies[] = ctools
 dependencies[] = email
 dependencies[] = entity

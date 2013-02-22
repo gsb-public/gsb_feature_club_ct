@@ -29,3 +29,5 @@ features[variable][] = field_bundle_settings_node__gsb_club
 features[variable][] = node_options_gsb_club
 features[variable][] = node_preview_gsb_club
 features[variable][] = node_submitted_gsb_club
+features[variable][] = menu_options_gsb_club
+features[variable][] = menu_parent_gsb_club

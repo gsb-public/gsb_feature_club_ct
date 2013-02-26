@@ -36,7 +36,7 @@ function gsb_feature_club_ct_field_default_fields() {
       'settings' => array(
         'allowed_values' => array(
           0 => array(
-            'vocabulary' => 'panopoly_categories',
+            'vocabulary' => 'club_category',
             'parent' => '0',
           ),
         ),

@@ -26,7 +26,6 @@ features[field][] = node-gsb_club-field_email
 features[field][] = node-gsb_club-field_field_link_single
 features[field][] = node-gsb_club-field_file_single_public
 features[node][] = gsb_club
-features[taxonomy][] = club_category
 features[variable][] = field_bundle_settings_node__gsb_club
 features[variable][] = menu_options_gsb_club
 features[variable][] = menu_parent_gsb_club

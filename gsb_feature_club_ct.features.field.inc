@@ -280,14 +280,14 @@ function gsb_feature_club_ct_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-club-field_field_link_single'.
-  $fields['node-club-field_field_link_single'] = array(
+  // Exported field: 'node-club-field_link_single'.
+  $fields['node-club-field_link_single'] = array(
     'field_config' => array(
       'active' => '1',
       'cardinality' => '1',
       'deleted' => '0',
       'entity_types' => array(),
-      'field_name' => 'field_field_link_single',
+      'field_name' => 'field_link_single',
       'foreign keys' => array(),
       'indexes' => array(),
       'locked' => '0',
@@ -349,7 +349,7 @@ function gsb_feature_club_ct_field_default_fields() {
         ),
       ),
       'entity_type' => 'node',
-      'field_name' => 'field_field_link_single',
+      'field_name' => 'field_link_single',
       'label' => 'Website Link',
       'required' => 1,
       'settings' => array(

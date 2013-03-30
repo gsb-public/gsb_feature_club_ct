@@ -19,7 +19,7 @@ function gsb_feature_club_ct_ctools_plugin_api() {
  */
 function gsb_feature_club_ct_node_info() {
   $items = array(
-    'gsb_club' => array(
+    'club' => array(
       'name' => t('Club'),
       'base' => 'node_content',
       'description' => t('The GSB Public Club content type is used for clubs on the GSB Public web site.'),

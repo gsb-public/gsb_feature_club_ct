@@ -10,8 +10,8 @@
 function gsb_feature_club_ct_field_default_fields() {
   $fields = array();
 
-  // Exported field: 'node-gsb_club-field_body'.
-  $fields['node-gsb_club-field_body'] = array(
+  // Exported field: 'node-club-field_body'.
+  $fields['node-club-field_body'] = array(
     'field_config' => array(
       'active' => '1',
       'cardinality' => '1',
@@ -38,7 +38,7 @@ function gsb_feature_club_ct_field_default_fields() {
       'type' => 'text_long',
     ),
     'field_instance' => array(
-      'bundle' => 'gsb_club',
+      'bundle' => 'club',
       'default_value' => NULL,
       'deleted' => '0',
       'description' => '',
@@ -104,8 +104,8 @@ function gsb_feature_club_ct_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-gsb_club-field_club_category'.
-  $fields['node-gsb_club-field_club_category'] = array(
+  // Exported field: 'node-club-field_club_category'.
+  $fields['node-club-field_club_category'] = array(
     'field_config' => array(
       'active' => '1',
       'cardinality' => '-1',
@@ -139,7 +139,7 @@ function gsb_feature_club_ct_field_default_fields() {
       'type' => 'taxonomy_term_reference',
     ),
     'field_instance' => array(
-      'bundle' => 'gsb_club',
+      'bundle' => 'club',
       'default_value' => NULL,
       'deleted' => '0',
       'description' => '',
@@ -201,8 +201,8 @@ function gsb_feature_club_ct_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-gsb_club-field_email'.
-  $fields['node-gsb_club-field_email'] = array(
+  // Exported field: 'node-club-field_email'.
+  $fields['node-club-field_email'] = array(
     'field_config' => array(
       'active' => '1',
       'cardinality' => '1',
@@ -218,7 +218,7 @@ function gsb_feature_club_ct_field_default_fields() {
       'type' => 'email',
     ),
     'field_instance' => array(
-      'bundle' => 'gsb_club',
+      'bundle' => 'club',
       'default_value' => NULL,
       'deleted' => '0',
       'description' => '',
@@ -280,8 +280,8 @@ function gsb_feature_club_ct_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-gsb_club-field_field_link_single'.
-  $fields['node-gsb_club-field_field_link_single'] = array(
+  // Exported field: 'node-club-field_field_link_single'.
+  $fields['node-club-field_field_link_single'] = array(
     'field_config' => array(
       'active' => '1',
       'cardinality' => '1',
@@ -311,7 +311,7 @@ function gsb_feature_club_ct_field_default_fields() {
       'type' => 'link_field',
     ),
     'field_instance' => array(
-      'bundle' => 'gsb_club',
+      'bundle' => 'club',
       'default_value' => NULL,
       'deleted' => '0',
       'description' => '',
@@ -388,8 +388,8 @@ function gsb_feature_club_ct_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-gsb_club-field_file_single_public'.
-  $fields['node-gsb_club-field_file_single_public'] = array(
+  // Exported field: 'node-club-field_file_single_public'.
+  $fields['node-club-field_file_single_public'] = array(
     'field_config' => array(
       'active' => '1',
       'cardinality' => '1',
@@ -419,7 +419,7 @@ function gsb_feature_club_ct_field_default_fields() {
       'type' => 'image',
     ),
     'field_instance' => array(
-      'bundle' => 'gsb_club',
+      'bundle' => 'club',
       'deleted' => '0',
       'description' => '',
       'display' => array(

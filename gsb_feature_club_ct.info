@@ -8,7 +8,6 @@ project = gsb_feature_club_ct
 dependencies[] = ctools
 dependencies[] = email
 dependencies[] = entity
-dependencies[] = entity_view_mode
 dependencies[] = features
 dependencies[] = hs_taxonomy
 dependencies[] = image

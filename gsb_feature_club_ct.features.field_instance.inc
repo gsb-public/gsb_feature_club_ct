@@ -39,10 +39,13 @@ function gsb_feature_club_ct_field_default_field_instances() {
         'weight' => 0,
       ),
       'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'text_default',
+        'weight' => 3,
       ),
       'tiny' => array(
         'label' => 'above',
@@ -120,7 +123,7 @@ function gsb_feature_club_ct_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 0,
+        'weight' => 10,
       ),
       'tiny' => array(
         'label' => 'above',
@@ -184,7 +187,7 @@ function gsb_feature_club_ct_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 0,
+        'weight' => 9,
       ),
       'tiny' => array(
         'label' => 'above',
@@ -244,7 +247,7 @@ function gsb_feature_club_ct_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 0,
+        'weight' => 11,
       ),
       'tiny' => array(
         'label' => 'above',
@@ -311,10 +314,13 @@ function gsb_feature_club_ct_field_default_field_instances() {
         'weight' => 0,
       ),
       'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
+        'label' => 'hidden',
+        'module' => 'gsb_field_formatter',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'gsb_field_formatter_node_title_link',
+        'weight' => 2,
       ),
       'tiny' => array(
         'label' => 'above',
@@ -323,10 +329,11 @@ function gsb_feature_club_ct_field_default_field_instances() {
         'weight' => 0,
       ),
     ),
+    'ds_extras_field_template' => '',
     'entity_type' => 'node',
     'field_name' => 'field_link_single',
     'label' => 'Website Link',
-    'required' => 1,
+    'required' => 0,
     'settings' => array(
       'attributes' => array(
         'class' => '',
@@ -343,6 +350,7 @@ function gsb_feature_club_ct_field_default_field_instances() {
         'enable' => 0,
         'insert_plugin' => '',
       ),
+      'rel_remove' => 'default',
       'title' => 'none',
       'title_maxlength' => 128,
       'title_value' => '',

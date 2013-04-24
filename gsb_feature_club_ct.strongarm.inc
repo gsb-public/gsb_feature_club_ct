@@ -19,6 +19,45 @@ function gsb_feature_club_ct_strongarm() {
       'clubby' => array(
         'custom_settings' => TRUE,
       ),
+      'teaser' => array(
+        'custom_settings' => TRUE,
+      ),
+      'ical' => array(
+        'custom_settings' => TRUE,
+      ),
+      'tiny' => array(
+        'custom_settings' => TRUE,
+      ),
+      'featured' => array(
+        'custom_settings' => TRUE,
+      ),
+      'full' => array(
+        'custom_settings' => FALSE,
+      ),
+      'rss' => array(
+        'custom_settings' => FALSE,
+      ),
+      'search_index' => array(
+        'custom_settings' => FALSE,
+      ),
+      'search_result' => array(
+        'custom_settings' => FALSE,
+      ),
+      'token' => array(
+        'custom_settings' => FALSE,
+      ),
+      'business_insight' => array(
+        'custom_settings' => FALSE,
+      ),
+      'megamenu' => array(
+        'custom_settings' => FALSE,
+      ),
+      'people_fpp' => array(
+        'custom_settings' => FALSE,
+      ),
+      'revision' => array(
+        'custom_settings' => FALSE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(
@@ -26,13 +65,13 @@ function gsb_feature_club_ct_strongarm() {
           'weight' => '0',
         ),
         'path' => array(
-          'weight' => '6',
-        ),
-        'workbench_access' => array(
           'weight' => '7',
         ),
-        'metatags' => array(
+        'workbench_access' => array(
           'weight' => '8',
+        ),
+        'metatags' => array(
+          'weight' => '9',
         ),
       ),
       'display' => array(),

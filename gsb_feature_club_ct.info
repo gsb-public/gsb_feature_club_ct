@@ -28,7 +28,6 @@ features[field_instance][] = node-club-field_addthis
 features[field_instance][] = node-club-field_body
 features[field_instance][] = node-club-field_club_category
 features[field_instance][] = node-club-field_email
-features[field_instance][] = node-club-field_image_single_public
 features[field_instance][] = node-club-field_link_single
 features[node][] = club
 features[variable][] = field_bundle_settings_node__club

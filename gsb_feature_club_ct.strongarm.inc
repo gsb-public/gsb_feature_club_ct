@@ -58,18 +58,6 @@ function gsb_feature_club_ct_strongarm() {
       'revision' => array(
         'custom_settings' => FALSE,
       ),
-      'diff_standard' => array(
-        'custom_settings' => FALSE,
-      ),
-      'event_listing' => array(
-        'custom_settings' => FALSE,
-      ),
-      'event_upcoming' => array(
-        'custom_settings' => FALSE,
-      ),
-      'media_contact' => array(
-        'custom_settings' => FALSE,
-      ),
     ),
     'extra_fields' => array(
       'form' => array(

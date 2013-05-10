@@ -404,89 +404,12 @@ function gsb_feature_club_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-club-field_search_field'
-  $field_instances['node-club-field_search_field'] = array(
-    'bundle' => 'club',
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'hidden',
-        'module' => 'concat_field',
-        'settings' => array(
-          'conditions' => array(),
-        ),
-        'type' => 'concat_field_blank',
-        'weight' => 20,
-      ),
-      'featured' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-      'ical' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-      'search_index' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-      'teaser' => array(
-        'label' => 'hidden',
-        'module' => 'concat_field',
-        'settings' => array(
-          'conditions' => array(),
-        ),
-        'type' => 'concat_field_blank',
-        'weight' => 0,
-      ),
-      'tiny' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'ds_extras_field_template' => '',
-    'entity_type' => 'node',
-    'field_name' => 'field_search_field',
-    'label' => 'Search field',
-    'required' => 0,
-    'settings' => array(
-      'selected_fields' => array(
-        'field_addthis' => 0,
-        'field_body' => 'field_body',
-        'field_club_category' => 'field_club_category',
-        'field_email' => 0,
-        'field_link_single' => 'field_link_single',
-      ),
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 0,
-      'module' => 'concat_field',
-      'settings' => array(
-        'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
-      ),
-      'type' => 'concat_field_default',
-      'weight' => 11,
-    ),
-    'workbench_access_field' => 0,
-  );
-
   // Translatables
   // Included for use with string extractors like potx.
   t('AddThis');
   t('Club Category');
   t('Description');
   t('Email');
-  t('Search field');
   t('Website Link');
 
   return $field_instances;

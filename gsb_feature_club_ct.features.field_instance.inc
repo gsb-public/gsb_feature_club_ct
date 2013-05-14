@@ -464,7 +464,7 @@ function gsb_feature_club_ct_field_default_field_instances() {
         'field_body' => 'field_body',
         'field_club_category' => 'field_club_category',
         'field_email' => 0,
-        'field_link_single' => 'field_link_single',
+        'field_link_single' => 0,
       ),
       'user_register_form' => FALSE,
     ),

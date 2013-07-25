@@ -74,16 +74,19 @@ function gsb_feature_club_ct_strongarm() {
     'extra_fields' => array(
       'form' => array(
         'title' => array(
-          'weight' => '0',
+          'weight' => '1',
         ),
         'path' => array(
-          'weight' => '7',
+          'weight' => '8',
         ),
         'workbench_access' => array(
-          'weight' => '8',
+          'weight' => '0',
         ),
         'metatags' => array(
           'weight' => '9',
+        ),
+        'redirect' => array(
+          'weight' => '11',
         ),
       ),
       'display' => array(),

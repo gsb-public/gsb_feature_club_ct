@@ -80,7 +80,7 @@ function gsb_feature_club_ct_field_default_field_instances() {
         'maxlength_js_label' => '',
       ),
       'type' => 'addthis_button_widget',
-      'weight' => 6,
+      'weight' => 7,
     ),
     'workbench_access_field' => 0,
   );
@@ -161,7 +161,7 @@ function gsb_feature_club_ct_field_default_field_instances() {
         'rows' => 5,
       ),
       'type' => 'text_textarea',
-      'weight' => 5,
+      'weight' => 6,
     ),
     'workbench_access_field' => 0,
   );
@@ -237,7 +237,7 @@ function gsb_feature_club_ct_field_default_field_instances() {
       'module' => 'hs_taxonomy',
       'settings' => array(),
       'type' => 'taxonomy_hs',
-      'weight' => 3,
+      'weight' => 4,
     ),
     'workbench_access_field' => 0,
   );
@@ -309,7 +309,7 @@ function gsb_feature_club_ct_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'email_textfield',
-      'weight' => 2,
+      'weight' => 3,
     ),
   );
 
@@ -399,7 +399,7 @@ function gsb_feature_club_ct_field_default_field_instances() {
         'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
       ),
       'type' => 'link_field',
-      'weight' => 1,
+      'weight' => 2,
     ),
     'workbench_access_field' => 0,
   );
@@ -476,7 +476,7 @@ function gsb_feature_club_ct_field_default_field_instances() {
         'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
       ),
       'type' => 'concat_field_default',
-      'weight' => 11,
+      'weight' => 10,
     ),
     'workbench_access_field' => 0,
   );

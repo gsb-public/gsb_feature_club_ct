@@ -18,7 +18,6 @@ dependencies[] = hs_taxonomy
 dependencies[] = image
 dependencies[] = link
 dependencies[] = options
-dependencies[] = panopoly_core
 dependencies[] = strongarm
 dependencies[] = taxonomy
 dependencies[] = text

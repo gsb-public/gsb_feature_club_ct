@@ -37,6 +37,7 @@ features[variable][] = menu_parent_club
 features[variable][] = node_options_club
 features[variable][] = node_preview_club
 features[variable][] = node_submitted_club
+features[variable][] = workbench_access_node_type_club
 features_exclude[taxonomy][club_category] = club_category
 features_exclude[field][node-club-field_body] = node-club-field_body
 features_exclude[field][node-club-field_club_category] = node-club-field_club_category

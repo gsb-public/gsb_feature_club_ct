@@ -363,9 +363,14 @@ function gsb_feature_club_ct_field_default_field_instances() {
         'weight' => 5,
       ),
       'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
+        'label' => 'hidden',
+        'module' => 'email',
+        'settings' => array(
+          'conditions' => array(),
+          'text' => 'Email',
+          'title' => 'Email Contact Form',
+        ),
+        'type' => 'email_contact',
         'weight' => 9,
       ),
       'tiny' => array(
@@ -380,6 +385,8 @@ function gsb_feature_club_ct_field_default_field_instances() {
     'label' => 'Email',
     'required' => 0,
     'settings' => array(
+      'allow_without_formatter' => FALSE,
+      'form_title' => 'Contact person by email',
       'user_register_form' => FALSE,
     ),
     'widget' => array(

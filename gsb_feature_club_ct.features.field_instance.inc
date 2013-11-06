@@ -380,24 +380,27 @@ function gsb_feature_club_ct_field_default_field_instances() {
         'weight' => 0,
       ),
     ),
+    'ds_extras_field_template' => '',
     'entity_type' => 'node',
     'field_name' => 'field_email',
     'label' => 'Email',
     'required' => 0,
     'settings' => array(
-      'allow_without_formatter' => FALSE,
-      'form_title' => 'Contact person by email',
+      'allow_without_formatter' => 0,
+      'form_title' => 'Contact [node:title]',
       'user_register_form' => FALSE,
     ),
     'widget' => array(
       'active' => 1,
       'module' => 'email',
       'settings' => array(
+        'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
         'size' => 60,
       ),
       'type' => 'email_textfield',
       'weight' => 3,
     ),
+    'workbench_access_field' => 0,
   );
 
   // Exported field_instance: 'node-club-field_image_single_public'

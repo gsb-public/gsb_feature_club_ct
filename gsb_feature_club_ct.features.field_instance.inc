@@ -81,6 +81,8 @@ function gsb_feature_club_ct_field_default_field_instances() {
     'label' => 'AddThis',
     'required' => FALSE,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'user_register_form' => FALSE,
     ),
     'widget' => array(
@@ -90,7 +92,7 @@ function gsb_feature_club_ct_field_default_field_instances() {
         'maxlength_js_label' => '',
       ),
       'type' => 'addthis_button_widget',
-      'weight' => 7,
+      'weight' => 8,
     ),
     'workbench_access_field' => 0,
   );
@@ -183,6 +185,8 @@ function gsb_feature_club_ct_field_default_field_instances() {
     'label' => 'Description',
     'required' => 1,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'linkit' => array(
         'enable' => 0,
         'insert_plugin' => '',
@@ -201,7 +205,7 @@ function gsb_feature_club_ct_field_default_field_instances() {
         'rows' => 5,
       ),
       'type' => 'text_textarea',
-      'weight' => 6,
+      'weight' => 7,
     ),
     'workbench_access_field' => 0,
   );
@@ -300,6 +304,8 @@ function gsb_feature_club_ct_field_default_field_instances() {
     'label' => 'Club Category',
     'required' => 1,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'user_register_form' => FALSE,
     ),
     'widget' => array(
@@ -307,7 +313,7 @@ function gsb_feature_club_ct_field_default_field_instances() {
       'module' => 'hs_taxonomy',
       'settings' => array(),
       'type' => 'taxonomy_hs',
-      'weight' => 5,
+      'weight' => 6,
     ),
     'workbench_access_field' => 0,
   );
@@ -387,6 +393,8 @@ function gsb_feature_club_ct_field_default_field_instances() {
     'required' => 0,
     'settings' => array(
       'allow_without_formatter' => 0,
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'form_title' => 'Contact [node:title]',
       'user_register_form' => FALSE,
     ),
@@ -461,6 +469,8 @@ function gsb_feature_club_ct_field_default_field_instances() {
     'required' => 0,
     'settings' => array(
       'alt_field' => 1,
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'default_image' => 0,
       'file_directory' => 'clubs',
       'file_extensions' => 'png gif jpg jpeg',
@@ -567,6 +577,8 @@ function gsb_feature_club_ct_field_default_field_instances() {
         'target' => '_blank',
         'title' => '',
       ),
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'display' => array(
         'url_cutoff' => 80,
       ),
@@ -670,6 +682,8 @@ function gsb_feature_club_ct_field_default_field_instances() {
     'label' => 'Search field',
     'required' => 0,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'selected_fields' => array(
         'concat_field_entity_label' => 'concat_field_entity_label',
         'field_addthis' => 0,
@@ -687,7 +701,7 @@ function gsb_feature_club_ct_field_default_field_instances() {
         'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
       ),
       'type' => 'concat_field_default',
-      'weight' => 10,
+      'weight' => 11,
     ),
     'workbench_access_field' => 0,
   );
@@ -730,6 +744,8 @@ function gsb_feature_club_ct_field_default_field_instances() {
     'label' => 'Submit',
     'required' => 0,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'user_register_form' => FALSE,
     ),
     'widget' => array(

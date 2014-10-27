@@ -77,13 +77,13 @@ function gsb_feature_club_ct_strongarm() {
           'weight' => '1',
         ),
         'path' => array(
-          'weight' => '9',
+          'weight' => '8',
         ),
         'workbench_access' => array(
           'weight' => '0',
         ),
         'metatags' => array(
-          'weight' => '10',
+          'weight' => '9',
         ),
         'redirect' => array(
           'weight' => '12',

@@ -547,6 +547,7 @@ function gsb_feature_club_ct_field_default_field_instances() {
     'label' => 'Website Link',
     'required' => 0,
     'settings' => array(
+      'absolute_url' => 1,
       'attributes' => array(
         'class' => '',
         'configurable_title' => 0,

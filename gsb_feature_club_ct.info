@@ -42,6 +42,7 @@ features[variable][] = menu_parent_club
 features[variable][] = node_options_club
 features[variable][] = node_preview_club
 features[variable][] = node_submitted_club
+features[variable][] = pathauto_node_club_pattern
 features[variable][] = workbench_access_node_type_club
 features[variable][] = workbench_moderation_default_state_club
 features_exclude[field_base][field_submit] = field_submit

@@ -10,7 +10,7 @@
 function gsb_feature_club_ct_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'node-club-field_alumni_story'
+  // Exported field_instance: 'node-club-field_alumni_story'.
   $field_instances['node-club-field_alumni_story'] = array(
     'bundle' => 'club',
     'custom_add_another' => '',
@@ -74,7 +74,7 @@ function gsb_feature_club_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-club-field_body'
+  // Exported field_instance: 'node-club-field_body'.
   $field_instances['node-club-field_body'] = array(
     'bundle' => 'club',
     'default_value' => NULL,
@@ -177,7 +177,7 @@ function gsb_feature_club_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-club-field_club_category'
+  // Exported field_instance: 'node-club-field_club_category'.
   $field_instances['node-club-field_club_category'] = array(
     'bundle' => 'club',
     'default_value' => NULL,
@@ -285,7 +285,7 @@ function gsb_feature_club_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-club-field_email'
+  // Exported field_instance: 'node-club-field_email'.
   $field_instances['node-club-field_email'] = array(
     'bundle' => 'club',
     'default_value' => NULL,
@@ -378,7 +378,7 @@ function gsb_feature_club_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-club-field_image_single_public'
+  // Exported field_instance: 'node-club-field_image_single_public'.
   $field_instances['node-club-field_image_single_public'] = array(
     'bundle' => 'club',
     'deleted' => 0,
@@ -461,7 +461,7 @@ function gsb_feature_club_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-club-field_link_single'
+  // Exported field_instance: 'node-club-field_link_single'.
   $field_instances['node-club-field_link_single'] = array(
     'bundle' => 'club',
     'custom_add_another' => '',
@@ -567,7 +567,7 @@ function gsb_feature_club_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-club-field_search_field'
+  // Exported field_instance: 'node-club-field_search_field'.
   $field_instances['node-club-field_search_field'] = array(
     'bundle' => 'club',
     'deleted' => 0,
@@ -656,7 +656,7 @@ function gsb_feature_club_ct_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'node-club-field_submit'
+  // Exported field_instance: 'node-club-field_submit'.
   $field_instances['node-club-field_submit'] = array(
     'bundle' => 'club',
     'deleted' => 0,

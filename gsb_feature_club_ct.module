@@ -9,8 +9,6 @@ include_once 'gsb_feature_club_ct.features.inc';
 function gsb_feature_club_ct_form_email_mail_page_form_alter(&$form, &$form_state) {
   $club_content_check = node_load($form['object_id']['#value']);
   if ($club_content_check->type == 'club') {
-    $form['disclaimer'] = array(
-      '#markup' => '<div class="form-item" id="disclaimer">This form is intended for Stanford affiliates and admitted students to contact our student clubs\' leadership teams. Off-campus individuals may also submit an inquiry here. Our students will do their best to respond, but we can not guarantee you will get a response to each email.</div>',
-    );
+    $form['message']['#suffix'] = '<div class="form-item" id="disclaimer">This form is intended for Stanford affiliates and admitted students to contact our student clubs\' leadership teams. Off-campus individuals may also submit an inquiry here. Our students will do their best to respond, but we can not guarantee you will get a response to each email.</div>';
   }
 }

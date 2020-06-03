@@ -40,6 +40,34 @@ function gsb_feature_club_ct_field_group_info() {
   $field_group = new stdClass();
   $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
   $field_group->api_version = 1;
+  $field_group->identifier = 'group_club_tags|node|club|form';
+  $field_group->group_name = 'group_club_tags';
+  $field_group->entity_type = 'node';
+  $field_group->bundle = 'club';
+  $field_group->mode = 'form';
+  $field_group->parent_name = 'group_taxonomy';
+  $field_group->data = array(
+    'label' => 'Tags',
+    'weight' => '7',
+    'children' => array(
+      0 => 'field_tag',
+    ),
+    'format_type' => 'tab',
+    'format_settings' => array(
+      'label' => 'Tags',
+      'instance_settings' => array(
+        'required_fields' => 1,
+        'classes' => '',
+        'description' => '',
+      ),
+      'formatter' => 'closed',
+    ),
+  );
+  $field_groups['group_club_tags|node|club|form'] = $field_group;
+
+  $field_group = new stdClass();
+  $field_group->disabled = FALSE; /* Edit this to true to make a default field_group disabled initially */
+  $field_group->api_version = 1;
   $field_group->identifier = 'group_taxonomy|node|club|form';
   $field_group->group_name = 'group_taxonomy';
   $field_group->entity_type = 'node';
@@ -51,6 +79,7 @@ function gsb_feature_club_ct_field_group_info() {
     'weight' => '5',
     'children' => array(
       0 => 'group_club_category',
+      1 => 'group_club_tags',
     ),
     'format_type' => 'tabs',
     'format_settings' => array(
@@ -66,6 +95,7 @@ function gsb_feature_club_ct_field_group_info() {
   // Included for use with string extractors like potx.
   t('Club Category');
   t('Tagging');
+  t('Tags');
 
   return $field_groups;
 }

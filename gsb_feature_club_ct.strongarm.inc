@@ -88,6 +88,9 @@ function gsb_feature_club_ct_strongarm() {
         'redirect' => array(
           'weight' => '12',
         ),
+        'xmlsitemap' => array(
+          'weight' => '30',
+        ),
       ),
       'display' => array(),
     ),
